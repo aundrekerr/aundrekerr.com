@@ -4,10 +4,12 @@ key: okizeme
 description: An information hub to view in-depth data on fighting games with custom tools for game-specific data.
 order: 2
 url: https://okize.me
-tech: [Next.js, Node.js, AWS CloudFront, ffmpeg]
+tech: [Next.js, Node.js, PostgresQL, AWS CloudFront, ffmpeg]
 ---
 
-An ongoing project to make some unique web tools for fighting games. This originally started out with me wanting to recreate the Frame Bar in Street Fighter 6's training mode for a web setting. 
+Major work-in-progress.
+
+A project to make some unique web tools for fighting games. This originally started out with me wanting to recreate the Frame Bar in Street Fighter 6's training mode for a web setting. 
 
 After mapping out every move for each character, I've started recording each move at the game's combat frame rate and exporting images of each frame. With both sets of data, they get mapped to a timeline allowing people to seek through any move frame by frame to see the properties that change.
 
